@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+## 欢迎来到phpm框架开发主页
 
-You can use the [editor on GitHub](https://github.com/wuxiumu/phpms/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+你可在这里查看phpms框架并下载开源源码
+### [源码查看](https://github.com/wuxiumu/ms)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### [源码下载](https://github.com/wuxiumu/ms.git)
 
-### Markdown
+## PHPMS框架
+中文最佳实践PHP开源框架,MVC结构的开源PHP框架,composer让php便捷开发成为无限可能。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### [composer中文网](https://www.phpcomposer.com/)
+### [composer安装列表](https://packagist.org/)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## 如何启动phpms框架
+网站根目录
+```
+composer update
+php -S localhost:8000
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 框架目录
 
-### Jekyll Themes
+```
+ms                              [PHP应用目录]
+│
+├── app                         [模块目录]
+│   │
+│   ├── ctrl                    [控制器目录]
+│   │  
+│   ├── model                   [数据模型目录]
+│   │   
+│   ├── rsa                     [私钥公钥存放目录]│   
+│   │ 
+│   └── viws                    [视图目录]
+│    
+├── core                        [PHPMS核心框架目录]
+│    │
+│    ├── common                 [公共函数目录]
+│    │   │
+│    │   └──function.php        [自定义公共函数]
+│    │
+│    ├── config                 [配置目录]
+│    │
+│    ├── flight                 [flight 引擎目录]
+│    │
+│    ├── lib                    [驱动目录]
+│    │   
+│    └── phpmsframe.php         [框架类]
+│
+├── readme                      [PHPMS框架开发思路和笔记]
+│    
+└── public                      [公共资源目录]
+.gitignore                      [git忽略文件配置]
+.htaccess                       [伪静态文件]
+api.php                         [api入口文件]  
+favicon.ico                     [ico图标] 
+index.php                       [后端入口文件]
+LICENSE                         [lincese文件]
+composer.json                   [composer配置文件]
+composer.lock                   [composer lock文件]
+README.md                       [readme文件]
+w_start_web.bat                 [win下一键启动项目文件] 
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wuxiumu/phpms/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+更多细节请看 [GitHub的PHPMS框架源码](https://github.com/wuxiumu/ms)
 
-### Support or Contact
+## 支持或联系
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+邮箱：wuxiumu@163.com
