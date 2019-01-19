@@ -20,7 +20,7 @@ phpms代码简洁优雅，对应用层，数据层，模板渲染层的封装简
 
 类的自动化加载
 
-api接口路由设计友好 具体可看源码或参考 [phpms框架拓展如何拓展](https://ms.meiyoufan.com/index.php/index/postinfo/id/36)
+api接口路由设计友好 具体可看源码或参考 [phpms框架拓展](https://ms.meiyoufan.com/index.php/index/postinfo/id/36)
 
 框架 Wiki：http://www.phpms.cn
 
