@@ -1,4 +1,4 @@
-## 欢迎来到phpm框架开发主页
+## 欢迎来到phpms框架开发主页
 
 你可在这里查看phpms框架并下载开源源码
 ### [源码查看](https://github.com/wuxiumu/ms)
@@ -12,7 +12,7 @@
 ### [composer安装列表](https://packagist.org/)
 
 ## 如何启动phpms框架
-网站根目录
+网站根目录cmd
 ```
 composer update
 php -S localhost:8000
