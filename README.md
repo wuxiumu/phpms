@@ -5,6 +5,27 @@
 
 ### [源码下载](https://github.com/wuxiumu/ms.git)
 
+## 概览
+phpms是一款高性能的轻量级PHP框架
+
+遵循 MVC 模式，用于快速开发现代 Web 应用程序
+
+phpms代码简洁优雅，对应用层，数据层，模板渲染层的封装简单易懂，能够快速上手使用
+
+高性能，框架响应时间在1ms以内，单机qps轻松上3000
+
+## 介绍
+
+支持自定义连表，根据项目大小composer可以选择适合自己的数据库框架，phpms默认medoo和pdo两种连接方式
+
+类的自动化加载
+
+api接口路由设计友好 具体可看源码或参考 [phpms框架拓展如何拓展](https://ms.meiyoufan.com/index.php/index/postinfo/id/36)
+
+框架 Wiki：http://www.phpms.cn
+
+GitHub 地址：https://github.com/wuxiumu/ms
+
 ## PHPMS框架
 中文最佳实践PHP开源框架,MVC结构的开源PHP框架,composer让php便捷开发成为无限可能。
 
